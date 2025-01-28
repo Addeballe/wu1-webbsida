@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    
     background-size: cover;
     color:white;
     font-family: RobotoMono;
@@ -18,17 +18,6 @@ li:hover {
     text-decoration: underline;
 }
 
-.container-hero p {
-    word-wrap: break-word;
-    width: 500px;
-}
-
-.container-hero {
-    display: flex;
-    padding: 9rem;
-    flex-direction: column;
-}
-
 .site-head {
     display: flex;
     flex-wrap: wrap;
@@ -36,25 +25,7 @@ li:hover {
     align-items: center;
     border-bottom: 1px solid rgb(30, 30, 30);
     padding-top: 0.5rem;
-}
-
-.container-second {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    background-color: #06170e;
-}
-
-.story-head {
-    display: flex;
-    justify-content: center;
-}
-.story-head img {
-    width: 90%;
-    border-radius: 25px;
-    filter: brightness(80%);
-    position: relative;
-    bottom: 3rem;
+    background-color: black;
 }
 
 .site-head a {
@@ -70,6 +41,50 @@ li:hover {
     padding: 5px;
 }
 
+.container-hero {
+    display: flex;
+    padding: 8rem;
+    flex-direction: column;
+    background-color: rgb(4, 4, 4);
+}
+
+.container-hero p {
+    width: 500px;
+}
+
+.container-second {
+  background-color: #06170e;
+}
+
+.story-head {
+    display: flex;
+    justify-content: center;
+}
+.story-head img {
+    width: 70%;
+    border-radius: 25px;
+    filter: brightness(80%);
+    position: relative;
+    bottom: 3rem;
+}
+
+.card-list {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 1rem;
+}
+
+.card img {
+    max-width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+    object-position: center;
+}
 
 
 
