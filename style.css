@@ -23,7 +23,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid rgb(30, 30, 30);
+    border-bottom: 1px solid #1e1e1e;
     padding-top: 0.5rem;
     background-color: black;
 }
@@ -111,14 +111,23 @@ h1 {
 }
 
 .container-third {
-    background-color: white;
-    color: black;
+    background-color: #ffffff;
+    color: #000000;
     justify-content: center;
-    padding: 4rem;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.container-third h2 {
+    font-size: 200%;
+    letter-spacing: 5px;
 }
 
 .point-list {
     list-style: none;
+    padding: 1rem;
 }
 
 .point-list li:hover {
