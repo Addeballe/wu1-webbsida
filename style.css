@@ -23,8 +23,7 @@ h1 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    border-bottom: 1px solid #1e1e1e;
-    padding-top: 0.5rem;
+    border-bottom: 2px solid #202020;
     background-color: black;
 }
 
@@ -52,12 +51,17 @@ h1 {
     width: 500px;
 }
 
+
 .container-second {
-  background-color: #071a07;
+  background-color: #002304;
   padding-bottom: 4rem;
   border-bottom: 2px solid black;
   padding-bottom: 5rem;
+  border-bottom: 2px solid #383838;
+  border-top: 2px solid #383838;
 }
+
+
 
 .story-head {
     display: flex;
@@ -82,7 +86,7 @@ h1 {
     border-radius: 25px;
     width: 300px;
     height: 350px;
-    background-color:#003300;
+    background-color:#004308;
 }
 
 .card-content {
@@ -120,9 +124,9 @@ h1 {
     padding-bottom: 4rem;
 }
 
-.container-third h2 {
+h2 {
     font-size: 200%;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
 }
 
 .point-list {
@@ -131,7 +135,7 @@ h1 {
 }
 
 .point-list li:hover {
-    transform: scale(1.1);
+    transform: translate(20px);
     transition-duration: 0.5s;
 }
 
@@ -167,4 +171,61 @@ footer {
 .color-card {
     border: 1px solid white;
     padding: 4rem;
+}
+
+/*ABOUT*/
+
+.about-container-hero {
+    display: flex;
+    padding: 7rem;
+    flex-direction: column;
+    background-color: rgb(4, 4, 4);
+}
+
+.about-container-second {
+    background-color: #ffffff;
+    color: black;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-container-second p {
+    font-size: 110%;
+}
+
+.team-list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+
+.team-list li:hover {
+    transform: translate(15px);
+    transition-duration: 0.1s;
+}
+
+.team-list p {
+    margin: 10px;
+    font-size: 140%;
+}
+
+.team-list img {
+max-width: 13%;
+height: auto;
+border-radius: 40%;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.team-card-content {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
 }
